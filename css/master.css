@@ -1,0 +1,36 @@
+body{
+  background-color: #F0C300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header, footer{
+  background-color: #000;
+  min-height: 15vh;
+}
+
+article{
+  min-height: 70vh;
+}
+
+nav a {
+  color: #FFF;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content video {
+  display: block;
+  flex-basis: 650px;
+}
+
+.content p {
+  flex-basis: 650px;
+  padding: 2em;
+}
