@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mrs+Saint+Delafield&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html {font-size: 100%;} /*16px*/
 
 body {
   background-color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.65;
   color: #333;
@@ -12,24 +12,49 @@ body {
 
 p {margin-bottom: 1.15rem;}
 
-h1, h2, h3, h4, h5 {
+h3, h5 {
   margin: 2.75rem 0 1.05rem;
-  font-family: 'Anton', sans-serif;
-  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
   line-height: 1.15;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 5.653em;
+  font-size: 3.052em;
 }
 
-h2 {font-size: 3.998em;}
+h4 {
+  margin: 1.5rem 0 1.05rem;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  line-height: 1.15;
+}
 
-h3 {font-size: 2.827em;}
+#titreprincipal {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  font-size: 60px;
+  font-weight: 400;
+}
 
-h4 {font-size: 1.999em;}
+h2 {font-size: 2.441em;}
 
-h5 {font-size: 1.414em;}
+h3 {
+  font-size: 2.441em;
+  font-weight: 300;
+}
 
-small, .text_small {font-size: 0.707em;}
+h4 {font-size: 3em;}
+
+h5 {font-size: 1.25em;}
+
+small, .text_small {font-size: 0.8em;}
+
+#soustitre {
+  color: #3A3A3A;
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 150px;
+  font-weight: 100;
+}
